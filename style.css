@@ -261,56 +261,49 @@ td {
 }
 @media screen and (max-width: 768px) {
 
-  .hero h1,
-  .page-title h1 {
-    font-size: 34px;
-    letter-spacing: 3px;
-    text-align: center;
-    line-height: 1.4;
-  }
-
-  .hero p {
-    font-size: 14px;
-    letter-spacing: 1px;
-    padding: 0 10px;
-    text-align: center;
-  }
-
-  .logo {
-    font-size: 16px;
-  }
-
-  .menu-btn {
-    font-size: 26px;
-  }
-
-  .content {
-    padding: 15px;
-  }
-
   table {
-    font-size: 12px;
+    display: block;
+    width: 100%;
   }
 
-  th, td {
-    padding: 6px;
+  tr {
+    display: block;
+    margin-bottom: 15px;
+
+    background: rgba(0,0,0,0.8);
+    border: 1px solid orange;
+    border-radius: 10px;
+
+    padding: 10px;
   }
 
-  td img {
-    width: 45px;
+  th {
+    display: none;
+  }
+
+  td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 6px 10px;
+    font-size: 14px;
+    border: none;
+  }
+
+  td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: orange;
   }
 
   .character-cell {
-  height: 80px;
-  background-size: cover;
-  background-position: right top;
-}
-
-  .rank-cell img {
-    width: 45px;
+    height: 60px;
+    background-position: right top;
+    background-size: cover;
   }
 
-  #sideMenu {
-    width: 80%;
+  .rank-cell img {
+    width: 40px;
   }
 }
