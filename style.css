@@ -301,9 +301,10 @@ td {
   }
 
   .character-cell {
-    height: 70px;
-    background-position: center top;
-  }
+  height: 80px;
+  background-size: cover;
+  background-position: right top;
+}
 
   .rank-cell img {
     width: 45px;
