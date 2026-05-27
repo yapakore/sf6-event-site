@@ -259,3 +259,55 @@ td {
 #sideMenu a {
   font-family: sans-serif;
 }
+@media screen and (max-width: 768px) {
+
+  .hero h1,
+  .page-title h1 {
+    font-size: 48px;
+    letter-spacing: 6px;
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0 10px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .menu-btn {
+    font-size: 28px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  td img {
+    width: 60px;
+  }
+
+  .character-cell {
+    height: 80px;
+    background-position: center top;
+  }
+
+  .rank-cell img {
+    width: 60px;
+  }
+
+  #sideMenu {
+    width: 70%;
+  }
+}
