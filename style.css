@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+
+  background: linear-gradient(rgba(0,0,0,0.8),
+  rgba(0,0,0,0.8)),
+  url("images/bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: orange;
+}
+
+.menu-btn {
+  font-size: 35px;
+  cursor: pointer;
+  color: orange;
+}
+
+#sideMenu {
+  position: fixed;
+  top: 0;
+  right: -300px;
+
+  width: 250px;
+  height: 100%;
+
+  background: #111;
+  transition: 0.3s;
+
+  padding-top: 100px;
+  z-index: 1000;
+}
+
+#sideMenu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+
+  padding: 20px;
+  font-size: 20px;
+
+  border-bottom: 1px solid #333;
+}
+
+#sideMenu a:hover {
+  background: orange;
+  color: black;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.hero,
+.page-title {
+  height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1,
+.page-title h1 {
+  font-size: 140px;
+  letter-spacing: 20px;
+
+  color: orange;
+
+  text-shadow:
+    0 0 20px rgb(255, 255, 255),
+    0 0 40px rgb(255, 255, 255);
+
+  font-family: "Yuji Syuku","Hiragino Mincho ProN", serif;
+}
+
+.hero p {
+  font-size: 42px;
+
+  letter-spacing: 8px;
+
+  margin-top: -10px;
+
+  text-shadow: 0 0 10px black;
+}
+
+.content {
+  padding: 60px;
+}
+
+.content h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.content a {
+  color: orange;
+  font-size: 24px;
+}
+
+.big-text {
+  text-align: center;
+  font-size: 60px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: rgba(0,0,0,0.7);
+
+  font-size: 22px;
+}
+
+th, td {
+  border: 1px solid orange;
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background: orange;
+  color: black;
+}
+
+td img {
+  width: 120px;
+}
+
+.team-box {
+  margin-bottom: 80px;
+}
+.character-cell {
+  position: relative;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-position: right top;
+
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 10px black;
+
+  height: 120px;
+}
+
+.ryu {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("images/ryu.png");
+}
+
+.jamie {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("images/jamie.png");
+}
+
+.manon {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("images/manon.png");
+}
+
+.ken {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("images/ken.png");
+}
+
+.marisa {
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("images/marisa.png");
+}
+
+.red-team {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.blue-team {
+  color: #4da6ff;
+  font-weight: bold;
+}
+.rank-cell img {
+  width: 120px;
+  height: auto;
+}
+
+
+th {
+  font-size: 24px;
+}
+
+td {
+  font-size: 22px;
+  font-weight: bold;
+}
+.winner {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.winner span {
+  color: #ff3b3b;
+  text-shadow: 0 0 15px red;
+}
+.event-title {
+  font-size: 42px;
+  line-height: 1.8;
+}
+
+.event-title span {
+  color: red;
+  font-weight: bold;
+}
+
+.event-link {
+  display: inline-block;
+
+  margin-top: 30px;
+
+  font-size: 28px;
+  font-weight: bold;
+
+  color: orange;
+
+  text-decoration: none;
+}
+
+.event-link:hover {
+  color: white;
+}
+
+#sideMenu a {
+  font-family: sans-serif;
+}
