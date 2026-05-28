@@ -208,11 +208,6 @@ td img {
   url("images/marisa.png");
 }
 
-.otoko20saki {
-  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-  url("images/otoko10saki.png");
-}
-
 .red-team {
   color: #ff4d4d;
   font-weight: bold;
