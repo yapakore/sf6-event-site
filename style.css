@@ -94,7 +94,7 @@ header {
 
   font-family: "Yuji Syuku","Hiragino Mincho ProN", serif;
 }
-.page-title result-page　h1 {
+.result-page　h1 {
   font-size: 60px;
   letter-spacing: 10px;
 
@@ -322,4 +322,16 @@ td {
   .page-title h1 {
     font-size: 34px !important;
   }
+  .result-page　h1 {
+  font-size: 28px;
+  letter-spacing: 10px;
+
+  color: orange;
+
+  text-shadow:
+    0 0 20px rgb(255, 255, 255),
+    0 0 40px rgb(255, 255, 255);
+
+  font-family: "Yuji Syuku","Hiragino Mincho ProN", serif;
+}
 }
