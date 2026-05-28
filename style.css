@@ -70,10 +70,7 @@ header {
   font-size: 35px;
   cursor: pointer;
 }
-.picsize{
-  width: "10px";
-  height: "40px";
-}
+
 .hero,
 .page-title {
   height: 70vh;
